@@ -1,9 +1,19 @@
-# Feedback Collector App
+# 📝 Feedback Collector App
 
-The **Feedback Collector App** is a simple web application that allows users to submit feedback and view submitted feedback in an admin view. It supports light and dark themes, and the feedback data is stored in Firebase Realtime Database.
+A modern and responsive feedback collector built with **React**, **Tailwind CSS**, and **Firebase Realtime Database**. The app allows users to submit feedback, which is stored in Firebase and viewable through a clean Admin interface.
 
 ---
 
+## 🚀 Features
+
+- 🎯 Submit feedback with validation
+- 📬 Stores feedback in Firebase Realtime Database
+- 👀 Admin view to see all feedback entries
+- 🌙 Light/Dark theme toggle
+- ⚡ Deployed using Netlify
+- ✅ Animated transitions and responsive design
+
+---
 ## 📁 Project Structure
 
 The project is organized as follows:
