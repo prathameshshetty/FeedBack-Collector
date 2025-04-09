@@ -109,7 +109,7 @@ VITE_FIREBASE_DATABASE_URL=your_firebase_database_url
 1. **Clone the repository:**
 
     ```bash
-    git clone https://github.com/your-repo/feedback-collector.git
+    git clone https://github.com/prathameshshetty/feedback-collector.git
     cd feedback-collector
     ```
 
