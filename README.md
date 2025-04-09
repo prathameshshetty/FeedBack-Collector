@@ -24,7 +24,7 @@ feedback-collector/
 │   └── index.css                  # Global styles
 ├── .env                           # Environment variables for Firebase configuration
 ├── package.json                   # Project dependencies and scripts
- README.md                      # Project documentation
+README.md                      # Project documentation
 ```
 
 ---
