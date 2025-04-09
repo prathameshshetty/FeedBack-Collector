@@ -4,26 +4,28 @@ The **Feedback Collector App** is a simple web application that allows users to 
 
 ---
 
-## Project Structure
+## 📁 Project Structure
 
 The project is organized as follows:
 
+```
 feedback-collector/
 ├── src/
-│ ├── components/
-│ │ ├── AdminView.jsx # Admin view to display submitted feedback
-│ │ ├── FeedbackCard.jsx # Card component to display individual feedback
-│ │ ├── FeedbackForm.jsx # Form for submitting feedback
-│ │ ├── Footer.jsx # Footer component
-│ │ └── ThemeToggle.jsx # Light/Dark mode toggle button
-│ ├── context/
-│ │ └── ThemeContext.jsx # Context for managing theme state
-│ ├── firebase.js # Firebase configuration and helper functions
-│ ├── App.jsx # Main application component
-│ └── index.css # Global styles
-├── .env # Environment variables for Firebase configuration
-├── package.json # Project dependencies and scripts
-README.md # Project documentation
+│   ├── components/
+│   │   ├── AdminView.jsx          # Admin view to display submitted feedback
+│   │   ├── FeedbackCard.jsx       # Card component to display individual feedback
+│   │   ├── FeedbackForm.jsx       # Form for submitting feedback
+│   │   ├── Footer.jsx             # Footer component
+│   │   └── ThemeToggle.jsx        # Light/Dark mode toggle button
+│   ├── context/
+│   │   └── ThemeContext.jsx       # Context for managing theme state
+│   ├── firebase.js                # Firebase configuration and helper functions
+│   ├── App.jsx                    # Main application component
+│   └── index.css                  # Global styles
+├── .env                           # Environment variables for Firebase configuration
+├── package.json                   # Project dependencies and scripts
+├── README.md                      # Project documentation
+```
 
 ---
 
