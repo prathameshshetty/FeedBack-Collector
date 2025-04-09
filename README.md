@@ -54,11 +54,11 @@ README.md # Project documentation
 
 ---
 
-## Environment Variables
+## 🌐 Environment Variables
 
 The app uses environment variables for Firebase configuration. Create a `.env` file in the root directory and add the following variables:
 
-````env
+```env
 VITE_FIREBASE_API_KEY=your_firebase_api_key
 VITE_FIREBASE_AUTH_DOMAIN=your_firebase_auth_domain
 VITE_FIREBASE_PROJECT_ID=your_firebase_project_id
@@ -67,16 +67,17 @@ VITE_FIREBASE_MESSAGING_SENDER_ID=your_firebase_messaging_sender_id
 VITE_FIREBASE_APP_ID=your_firebase_app_id
 VITE_FIREBASE_MEASUREMENT_ID=your_firebase_measurement_id
 VITE_FIREBASE_DATABASE_URL=your_firebase_database_url
+```
 
-## Deployment Steps (Netlify)
+## 🚀 Deployment Steps (Netlify)
 
-1.  **Install Netlify CLI (optional):**
+1. **Install Netlify CLI (optional):**
 
     ```bash
     npm install -g netlify-cli
     ```
 
-2.  **Build the Project:**
+2. **Build the Project:**
 
     Run the following command to create a production build:
 
@@ -84,49 +85,50 @@ VITE_FIREBASE_DATABASE_URL=your_firebase_database_url
     npm run build
     ```
 
-3.  **Deploy to Netlify:**
+3. **Deploy to Netlify:**
 
-    * Log in to your Netlify account.
-    * Drag and drop the `dist/` folder (created after the build) into the Netlify dashboard.
-    * Alternatively, use the CLI:
+    - Log in to your Netlify account.
+    - Drag and drop the `dist/` folder (created after the build) into the Netlify dashboard.
+    - Alternatively, use the CLI:
 
         ```bash
         netlify deploy --prod
         ```
 
-4.  **Set Environment Variables:**
+4. **Set Environment Variables:**
 
-    * Go to your Netlify project settings.
-    * Add the Firebase environment variables under the "Environment Variables" section.
+    - Go to your Netlify project settings.
+    - Add the Firebase environment variables under the **Environment Variables** section.
 
-5.  **Access Your App:**
+5. **Access Your App:**
 
-    * Once deployed, Netlify will provide a live URL for your app.
+    - Once deployed, Netlify will provide a live URL for your app.
 
-## How to Run Locally
+## 💻 How to Run Locally
 
-1.  **Clone the repository:**
+1. **Clone the repository:**
 
     ```bash
-    git clone [https://github.com/your-repo/feedback-collector.git](https://github.com/your-repo/feedback-collector.git)
+    git clone https://github.com/your-repo/feedback-collector.git
     cd feedback-collector
     ```
 
-2.  **Install dependencies:**
+2. **Install dependencies:**
 
     ```bash
     npm install
     ```
 
-3.  **Add your `.env` file with Firebase credentials.**
+3. **Add your `.env` file with Firebase credentials.**
 
-4.  **Start the development server:**
+4. **Start the development server:**
 
     ```bash
     npm run dev
     ```
 
-5.  **Open the app in your browser at `http://localhost:5173`.**
+5. **Open the app in your browser at** `http://localhost:5173`.
 
-Crafted with ❤️ by Prathamesh Shetty. ```
-````
+---
+
+Crafted with ❤️ by Prathamesh Shetty
