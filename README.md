@@ -10,35 +10,37 @@ The project is organized as follows:
 
 feedback-collector/
 ├── src/
-│   ├── components/
-│   │   ├── AdminView.jsx        # Admin view to display submitted feedback
-│   │   ├── FeedbackCard.jsx     # Card component to display individual feedback
-│   │   ├── FeedbackForm.jsx     # Form for submitting feedback
-│   │   ├── Footer.jsx           # Footer component
-│   │   └── ThemeToggle.jsx      # Light/Dark mode toggle button
-│   ├── context/
-│   │   └── ThemeContext.jsx     # Context for managing theme state
-│   ├── firebase.js              # Firebase configuration and helper functions
-│   ├── App.jsx                  # Main application component
-│   └── index.css                # Global styles
-├── .env                         # Environment variables for Firebase configuration
-├── package.json                 # Project dependencies and scripts
-└── README.md                    # Project documentation
-
+│ ├── components/
+│ │ ├── AdminView.jsx # Admin view to display submitted feedback
+│ │ ├── FeedbackCard.jsx # Card component to display individual feedback
+│ │ ├── FeedbackForm.jsx # Form for submitting feedback
+│ │ ├── Footer.jsx # Footer component
+│ │ └── ThemeToggle.jsx # Light/Dark mode toggle button
+│ ├── context/
+│ │ └── ThemeContext.jsx # Context for managing theme state
+│ ├── firebase.js # Firebase configuration and helper functions
+│ ├── App.jsx # Main application component
+│ └── index.css # Global styles
+├── .env # Environment variables for Firebase configuration
+├── package.json # Project dependencies and scripts
+README.md # Project documentation
 
 ---
 
 ## Tech Stack
 
 ### Frontend
+
 - **React**: Component-based UI library for building the app.
 - **Tailwind CSS**: Utility-first CSS framework for styling.
 - **Lucide Icons**: Icon library for UI elements.
 
 ### Backend
+
 - **Firebase Realtime Database**: Used to store and retrieve feedback in real-time.
 
 ### Deployment
+
 - **Netlify**: For hosting and deploying the application.
 
 ---
@@ -56,7 +58,7 @@ feedback-collector/
 
 The app uses environment variables for Firebase configuration. Create a `.env` file in the root directory and add the following variables:
 
-```env
+````env
 VITE_FIREBASE_API_KEY=your_firebase_api_key
 VITE_FIREBASE_AUTH_DOMAIN=your_firebase_auth_domain
 VITE_FIREBASE_PROJECT_ID=your_firebase_project_id
@@ -127,3 +129,4 @@ VITE_FIREBASE_DATABASE_URL=your_firebase_database_url
 5.  **Open the app in your browser at `http://localhost:5173`.**
 
 Crafted with ❤️ by Prathamesh Shetty. ```
+````
