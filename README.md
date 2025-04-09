@@ -57,12 +57,27 @@ README.md                      # Project documentation
 
 ---
 
-## Features
+## 🌐 API Endpoints
 
-1. **Feedback Submission**: Users can submit feedback with their name, email, and message.
-2. **Admin View**: Admins can view all submitted feedback in a card-based layout.
-3. **Light/Dark Mode**: Users can toggle between light and dark themes.
-4. **Real-Time Updates**: Feedback is stored and retrieved in real-time using Firebase.
+### 1. `POST /submit-feedback`
+
+- **Description**: Submits feedback to Firebase
+- **Used In**: `FeedbackForm.jsx`
+- **Logic**:
+  - Validates form inputs
+  - Appends timestamp
+  - Pushes feedback to Realtime DB
+
+### 2. `GET /feedbacks`
+
+- **Description**: Fetches all feedback entries
+- **Used In**: `AdminView.jsx`
+- **Logic**:
+  - Reads from `feedbacks` node
+  - Transforms data into array of objects
+  - Displays each entry using `FeedbackCard.jsx`
+
+These two endpoints are implemented internally using Firebase SDK.
 
 ---
 
